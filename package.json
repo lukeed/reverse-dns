@@ -1,7 +1,7 @@
 {
   "name": "reverse-dns",
   "version": "0.0.0",
-  "description": "Get the reverse domain name notation (or &#34;reverse DNS&#34;) for a site.",
+  "description": "Get the reverse domain name notation (or 'reverse DNS') for a site.",
   "license": "MIT",
   "repository": "lukeed/reverse-dns",
   "author": {
@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && tape test/*.js | tap-spec"
   },
   "files": [
     "index.js"
@@ -23,7 +23,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.15.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3",
     "xo": "^0.16.0"
   },
   "xo": {
