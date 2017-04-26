@@ -1,0 +1,32 @@
+{
+  "name": "reverse-dns",
+  "version": "0.0.0",
+  "description": "Get the reverse domain name notation (or &#34;reverse DNS&#34;) for a site.",
+  "license": "MIT",
+  "repository": "lukeed/reverse-dns",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "lukeed.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
