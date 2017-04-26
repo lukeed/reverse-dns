@@ -1,6 +1,6 @@
 {
   "name": "reverse-dns",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the reverse domain name notation (or 'reverse DNS') for a site.",
   "license": "MIT",
   "repository": "lukeed/reverse-dns",
