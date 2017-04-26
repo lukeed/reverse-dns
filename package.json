@@ -19,7 +19,14 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "dns",
+    "domain",
+    "java",
+    "name",
+    "notation",
+    "reverse",
+    "reverse-dns",
+    "naming",
   ],
   "dependencies": {},
   "devDependencies": {
